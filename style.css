@@ -36,14 +36,32 @@ body {
   animation: dino 0.6s linear;
 }
 .obstacleAni {
-  animation: obstacleAni 5s linear infinite;
+  animation: obstacleAni 2s linear infinite;
+}
+.gameOver {
+  position: relative;
+  top: 65px;
+  font-size: 50px;
+  text-align: center;
+}
+#scoreCount {
+  position: absolute;
+  right: 73px;
+  top: 53px;
+  color: brown;
+  border: 2px solid black;
+  padding: 8px;
+  width: 140px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: cursive;
 }
 @keyframes dino {
   0% {
     bottom: 0;
   }
   50% {
-    bottom: 450px;
+    bottom: 460px;
   }
   100% {
     bottom: 0;
